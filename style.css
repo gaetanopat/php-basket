@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url('https://lecconotizie.com/wp-content/uploads/2018/02/Basketball-canestro.jpg');
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  color: red;
+  margin-top: 10px;
+}
+/* per il container delle card */
+.container{
+  min-height: calc(100vh - 47px);
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* per le varie card */
+.card{
+  background-color: #e6e8ed;
+  width: 250px;
+  text-align: center;
+  margin: 10px 0;
+  margin-left: 12px;
+  height:120px;
+  border: 1px solid black;
+}
+span{
+  color: #2d36d8;
+}
